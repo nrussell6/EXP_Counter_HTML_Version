@@ -35,20 +35,36 @@
     grid-column: 2;
     grid-row: 3;
     text-align: center;
+    padding-bottom: .5em;
 }
 
 .charDataSection{
     border-style: none solid solid solid;
+    border-color: black;
     background-color: #b3ccff; 
+    text-align: center;
+    padding-top: .5em;
 }
 
 .characterDataDisplay{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
 }
 
 label{
-    /* font-size: large; */
     font-weight: bolder;
     font-style: italic;    
+}
+
+html{
+    font-size: xx-large;
+}
+
+button{
+    font-size: xx-large;
+    padding-left: 1em;
+    padding-right: 1em;
 }
